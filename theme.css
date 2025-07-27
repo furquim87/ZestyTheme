@@ -17,14 +17,14 @@
   --dark-highlight: 65, 65, 65;    /* #414141 */
   --dark-apparent: 43, 43, 43;     /* #2B2B2B */
   
-  --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-gray.png");
+  --stylish-login: url("https://cdn.jsdelivr.net/gh/furquim87/ZestyTheme@latest/images/login-wallpapers/stylish-gray.png");
 }
 
-#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/furquim87/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
 .layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/gray.png") no-repeat center center;}
 .sessionAppInfo img {filter: invert(0%) sepia(70%) saturate(250%) hue-rotate(320deg) brightness(130%) contrast(60%);}
 
-#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-yellow.png") !important;}
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/furquim87/ZestyTheme@latest/images/login-wallpapers/minimal-yellow.png") !important;}
 .layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/yellow.png") no-repeat center center;}
 .sessionAppInfo img {filter: invert(40%) sepia(70%) saturate(285%) hue-rotate(30deg) brightness(150%) contrast(60%);}
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
