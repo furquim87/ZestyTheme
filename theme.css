@@ -1,4 +1,32 @@
-  @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/cyan.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
+
+  /*My changes*/
+@import url("https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/public-icon.css");
+
+.editorsChoiceItemBanner {
+    border-radius: 12px;
+}
+
+/* Gray color scheme */
+
+:root {
+  --accent: 255, 255, 255;         /* #FFFFFF */
+  --accent-off: 141, 141, 141;     /* #8D8D8D */
+  --dark: 32, 32, 32;              /* #202020 */
+  --darkest: 25, 25, 25;           /* #191919 */
+  --dark-highlight: 65, 65, 65;    /* #414141 */
+  --dark-apparent: 43, 43, 43;     /* #2B2B2B */
+  
+  --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-gray.png");
+}
+
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-gray.png") !important;}
+.layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/gray.png") no-repeat center center;}
+.sessionAppInfo img {filter: invert(0%) sepia(70%) saturate(250%) hue-rotate(320deg) brightness(130%) contrast(60%);}
+
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-yellow.png") !important;}
+.layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/yellow.png") no-repeat center center;}
+.sessionAppInfo img {filter: invert(40%) sepia(70%) saturate(285%) hue-rotate(30deg) brightness(150%) contrast(60%);}
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
 
   :root {
@@ -271,7 +299,7 @@
   .layout-desktop .btnPlay {
       background-color: rgb(var(--white));
       color: rgb(var(--darkest)) !important;
-      margin-right: 3vw !important;
+      margin-right: 0vw !important;
       border-radius: calc(var(--rounding) + 2px) !important;
   }
 
@@ -4007,4 +4035,3 @@
   font-size: 1.75em;
   font-weight: 600;
 }
-
